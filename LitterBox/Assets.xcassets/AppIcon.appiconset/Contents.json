@@ -1,56 +1,67 @@
 {
   "images" : [
     {
+      "filename" : "90e676be136f6d54a1e39a2c5dcde953.jpg",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
     },
     {
+      "filename" : "90e676be136f6d54a1e39a2c5dcde953 4.jpg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
+      "filename" : "90e676be136f6d54a1e39a2c5dcde953 3.jpg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
+      "filename" : "90e676be136f6d54a1e39a2c5dcde953 1.jpg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
+      "filename" : "90e676be136f6d54a1e39a2c5dcde953 2.jpg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
+      "filename" : "90e676be136f6d54a1e39a2c5dcde953 7.jpg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
+      "filename" : "90e676be136f6d54a1e39a2c5dcde953 5.jpg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
+      "filename" : "90e676be136f6d54a1e39a2c5dcde953 8.jpg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
+      "filename" : "90e676be136f6d54a1e39a2c5dcde953 6.jpg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
+      "filename" : "90e676be136f6d54a1e39a2c5dcde953 9.jpg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
+      "filename" : "90e676be136f6d54a1e39a2c5dcde953 10.jpg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"

@@ -14,6 +14,14 @@
 		196A7CF92BD381DA00DF353A /* LitterBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A7CF82BD381DA00DF353A /* LitterBoxTests.swift */; };
 		196A7D032BD381DA00DF353A /* LitterBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A7D022BD381DA00DF353A /* LitterBoxUITests.swift */; };
 		196A7D052BD381DA00DF353A /* LitterBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A7D042BD381DA00DF353A /* LitterBoxUITestsLaunchTests.swift */; };
+		7C4A633D2BD411E200A6B327 /* homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A633C2BD411E200A6B327 /* homepage.swift */; };
+		7C4A63412BD417EE00A6B327 /* budgetdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A63402BD417EE00A6B327 /* budgetdata.swift */; };
+		7C4A63432BD4226600A6B327 /* sectormark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A63422BD4226600A6B327 /* sectormark.swift */; };
+		7C4A63462BD429A600A6B327 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 7C4A63452BD429A600A6B327 /* SwiftUICharts */; };
+		7C4A63482BD432E800A6B327 /* savings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A63472BD432E800A6B327 /* savings.swift */; };
+		7C4A634A2BD4753E00A6B327 /* shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A63492BD4753D00A6B327 /* shop.swift */; };
+		7C4A634D2BD477B000A6B327 /* products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A634C2BD477B000A6B327 /* products.swift */; };
+		7C4A63502BD4790200A6B327 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A634F2BD4790200A6B327 /* ProductCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,13 @@
 		196A7CFE2BD381DA00DF353A /* LitterBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LitterBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		196A7D022BD381DA00DF353A /* LitterBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitterBoxUITests.swift; sourceTree = "<group>"; };
 		196A7D042BD381DA00DF353A /* LitterBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitterBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C4A633C2BD411E200A6B327 /* homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepage.swift; sourceTree = "<group>"; };
+		7C4A63402BD417EE00A6B327 /* budgetdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = budgetdata.swift; sourceTree = "<group>"; };
+		7C4A63422BD4226600A6B327 /* sectormark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sectormark.swift; sourceTree = "<group>"; };
+		7C4A63472BD432E800A6B327 /* savings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savings.swift; sourceTree = "<group>"; };
+		7C4A63492BD4753D00A6B327 /* shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shop.swift; sourceTree = "<group>"; };
+		7C4A634C2BD477B000A6B327 /* products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = products.swift; sourceTree = "<group>"; };
+		7C4A634F2BD4790200A6B327 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4A63462BD429A600A6B327 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +91,8 @@
 		196A7CDA2BD381D700DF353A = {
 			isa = PBXGroup;
 			children = (
+				7C4A63492BD4753D00A6B327 /* shop.swift */,
+				196A7CF82BD381DA00DF353A /* LitterBoxTests.swift */,
 				196A7CE52BD381D700DF353A /* LitterBox */,
 				196A7CF72BD381DA00DF353A /* LitterBoxTests */,
 				196A7D012BD381DA00DF353A /* LitterBoxUITests */,
@@ -95,8 +113,14 @@
 		196A7CE52BD381D700DF353A /* LitterBox */ = {
 			isa = PBXGroup;
 			children = (
-				196A7CE62BD381D700DF353A /* LitterBoxApp.swift */,
+				7C4A634E2BD478D200A6B327 /* Components */,
 				196A7CE82BD381D700DF353A /* ContentView.swift */,
+				7C4A634B2BD4779900A6B327 /* Models */,
+				196A7CE62BD381D700DF353A /* LitterBoxApp.swift */,
+				7C4A63472BD432E800A6B327 /* savings.swift */,
+				7C4A63422BD4226600A6B327 /* sectormark.swift */,
+				7C4A63402BD417EE00A6B327 /* budgetdata.swift */,
+				7C4A633C2BD411E200A6B327 /* homepage.swift */,
 				196A7CEA2BD381DA00DF353A /* Assets.xcassets */,
 				196A7CEC2BD381DA00DF353A /* LitterBox.entitlements */,
 				196A7CED2BD381DA00DF353A /* Preview Content */,
@@ -115,7 +139,6 @@
 		196A7CF72BD381DA00DF353A /* LitterBoxTests */ = {
 			isa = PBXGroup;
 			children = (
-				196A7CF82BD381DA00DF353A /* LitterBoxTests.swift */,
 			);
 			path = LitterBoxTests;
 			sourceTree = "<group>";
@@ -127,6 +150,22 @@
 				196A7D042BD381DA00DF353A /* LitterBoxUITestsLaunchTests.swift */,
 			);
 			path = LitterBoxUITests;
+			sourceTree = "<group>";
+		};
+		7C4A634B2BD4779900A6B327 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7C4A634C2BD477B000A6B327 /* products.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7C4A634E2BD478D200A6B327 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7C4A634F2BD4790200A6B327 /* ProductCard.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +184,9 @@
 			dependencies = (
 			);
 			name = LitterBox;
+			packageProductDependencies = (
+				7C4A63452BD429A600A6B327 /* SwiftUICharts */,
+			);
 			productName = LitterBox;
 			productReference = 196A7CE32BD381D700DF353A /* LitterBox.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +259,9 @@
 				Base,
 			);
 			mainGroup = 196A7CDA2BD381D700DF353A;
+			packageReferences = (
+				7C4A63442BD429A600A6B327 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 196A7CE42BD381D700DF353A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +304,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4A63482BD432E800A6B327 /* savings.swift in Sources */,
 				196A7CE92BD381D700DF353A /* ContentView.swift in Sources */,
+				7C4A634A2BD4753E00A6B327 /* shop.swift in Sources */,
+				7C4A63412BD417EE00A6B327 /* budgetdata.swift in Sources */,
+				7C4A63432BD4226600A6B327 /* sectormark.swift in Sources */,
+				7C4A63502BD4790200A6B327 /* ProductCard.swift in Sources */,
+				7C4A634D2BD477B000A6B327 /* products.swift in Sources */,
 				196A7CE72BD381D700DF353A /* LitterBoxApp.swift in Sources */,
+				7C4A633D2BD411E200A6B327 /* homepage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +401,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -404,7 +458,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -432,10 +488,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "turnip-dev.LitterBox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -468,10 +524,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "turnip-dev.LitterBox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -609,6 +665,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7C4A63442BD429A600A6B327 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7C4A63452BD429A600A6B327 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C4A63442BD429A600A6B327 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 196A7CDB2BD381D700DF353A /* Project object */;
 }
