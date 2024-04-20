@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		196A7CE72BD381D700DF353A /* LitterBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A7CE62BD381D700DF353A /* LitterBoxApp.swift */; };
+		196A7CE92BD381D700DF353A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A7CE82BD381D700DF353A /* ContentView.swift */; };
+		196A7CEB2BD381DA00DF353A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196A7CEA2BD381DA00DF353A /* Assets.xcassets */; };
+		196A7CEF2BD381DA00DF353A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196A7CEE2BD381DA00DF353A /* Preview Assets.xcassets */; };
+		196A7CF92BD381DA00DF353A /* LitterBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A7CF82BD381DA00DF353A /* LitterBoxTests.swift */; };
+		196A7D032BD381DA00DF353A /* LitterBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A7D022BD381DA00DF353A /* LitterBoxUITests.swift */; };
+		196A7D052BD381DA00DF353A /* LitterBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A7D042BD381DA00DF353A /* LitterBoxUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		196A7CF52BD381DA00DF353A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 196A7CDB2BD381D700DF353A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 196A7CE22BD381D700DF353A;
+			remoteInfo = LitterBox;
+		};
+		196A7CFF2BD381DA00DF353A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 196A7CDB2BD381D700DF353A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 196A7CE22BD381D700DF353A;
+			remoteInfo = LitterBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		196A7CE32BD381D700DF353A /* LitterBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LitterBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		196A7CE62BD381D700DF353A /* LitterBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitterBoxApp.swift; sourceTree = "<group>"; };
+		196A7CE82BD381D700DF353A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		196A7CEA2BD381DA00DF353A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		196A7CEC2BD381DA00DF353A /* LitterBox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LitterBox.entitlements; sourceTree = "<group>"; };
+		196A7CEE2BD381DA00DF353A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		196A7CF42BD381DA00DF353A /* LitterBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LitterBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		196A7CF82BD381DA00DF353A /* LitterBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitterBoxTests.swift; sourceTree = "<group>"; };
+		196A7CFE2BD381DA00DF353A /* LitterBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LitterBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		196A7D022BD381DA00DF353A /* LitterBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitterBoxUITests.swift; sourceTree = "<group>"; };
+		196A7D042BD381DA00DF353A /* LitterBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitterBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		196A7CE02BD381D700DF353A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196A7CF12BD381DA00DF353A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196A7CFB2BD381DA00DF353A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		196A7CDA2BD381D700DF353A = {
+			isa = PBXGroup;
+			children = (
+				196A7CE52BD381D700DF353A /* LitterBox */,
+				196A7CF72BD381DA00DF353A /* LitterBoxTests */,
+				196A7D012BD381DA00DF353A /* LitterBoxUITests */,
+				196A7CE42BD381D700DF353A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		196A7CE42BD381D700DF353A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				196A7CE32BD381D700DF353A /* LitterBox.app */,
+				196A7CF42BD381DA00DF353A /* LitterBoxTests.xctest */,
+				196A7CFE2BD381DA00DF353A /* LitterBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		196A7CE52BD381D700DF353A /* LitterBox */ = {
+			isa = PBXGroup;
+			children = (
+				196A7CE62BD381D700DF353A /* LitterBoxApp.swift */,
+				196A7CE82BD381D700DF353A /* ContentView.swift */,
+				196A7CEA2BD381DA00DF353A /* Assets.xcassets */,
+				196A7CEC2BD381DA00DF353A /* LitterBox.entitlements */,
+				196A7CED2BD381DA00DF353A /* Preview Content */,
+			);
+			path = LitterBox;
+			sourceTree = "<group>";
+		};
+		196A7CED2BD381DA00DF353A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				196A7CEE2BD381DA00DF353A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		196A7CF72BD381DA00DF353A /* LitterBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				196A7CF82BD381DA00DF353A /* LitterBoxTests.swift */,
+			);
+			path = LitterBoxTests;
+			sourceTree = "<group>";
+		};
+		196A7D012BD381DA00DF353A /* LitterBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				196A7D022BD381DA00DF353A /* LitterBoxUITests.swift */,
+				196A7D042BD381DA00DF353A /* LitterBoxUITestsLaunchTests.swift */,
+			);
+			path = LitterBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		196A7CE22BD381D700DF353A /* LitterBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196A7D082BD381DA00DF353A /* Build configuration list for PBXNativeTarget "LitterBox" */;
+			buildPhases = (
+				196A7CDF2BD381D700DF353A /* Sources */,
+				196A7CE02BD381D700DF353A /* Frameworks */,
+				196A7CE12BD381D700DF353A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LitterBox;
+			productName = LitterBox;
+			productReference = 196A7CE32BD381D700DF353A /* LitterBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		196A7CF32BD381DA00DF353A /* LitterBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196A7D0B2BD381DA00DF353A /* Build configuration list for PBXNativeTarget "LitterBoxTests" */;
+			buildPhases = (
+				196A7CF02BD381DA00DF353A /* Sources */,
+				196A7CF12BD381DA00DF353A /* Frameworks */,
+				196A7CF22BD381DA00DF353A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				196A7CF62BD381DA00DF353A /* PBXTargetDependency */,
+			);
+			name = LitterBoxTests;
+			productName = LitterBoxTests;
+			productReference = 196A7CF42BD381DA00DF353A /* LitterBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		196A7CFD2BD381DA00DF353A /* LitterBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196A7D0E2BD381DA00DF353A /* Build configuration list for PBXNativeTarget "LitterBoxUITests" */;
+			buildPhases = (
+				196A7CFA2BD381DA00DF353A /* Sources */,
+				196A7CFB2BD381DA00DF353A /* Frameworks */,
+				196A7CFC2BD381DA00DF353A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				196A7D002BD381DA00DF353A /* PBXTargetDependency */,
+			);
+			name = LitterBoxUITests;
+			productName = LitterBoxUITests;
+			productReference = 196A7CFE2BD381DA00DF353A /* LitterBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		196A7CDB2BD381D700DF353A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					196A7CE22BD381D700DF353A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					196A7CF32BD381DA00DF353A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 196A7CE22BD381D700DF353A;
+					};
+					196A7CFD2BD381DA00DF353A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 196A7CE22BD381D700DF353A;
+					};
+				};
+			};
+			buildConfigurationList = 196A7CDE2BD381D700DF353A /* Build configuration list for PBXProject "LitterBox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 196A7CDA2BD381D700DF353A;
+			productRefGroup = 196A7CE42BD381D700DF353A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				196A7CE22BD381D700DF353A /* LitterBox */,
+				196A7CF32BD381DA00DF353A /* LitterBoxTests */,
+				196A7CFD2BD381DA00DF353A /* LitterBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		196A7CE12BD381D700DF353A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196A7CEF2BD381DA00DF353A /* Preview Assets.xcassets in Resources */,
+				196A7CEB2BD381DA00DF353A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196A7CF22BD381DA00DF353A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196A7CFC2BD381DA00DF353A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		196A7CDF2BD381D700DF353A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196A7CE92BD381D700DF353A /* ContentView.swift in Sources */,
+				196A7CE72BD381D700DF353A /* LitterBoxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196A7CF02BD381DA00DF353A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196A7CF92BD381DA00DF353A /* LitterBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196A7CFA2BD381DA00DF353A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196A7D052BD381DA00DF353A /* LitterBoxUITestsLaunchTests.swift in Sources */,
+				196A7D032BD381DA00DF353A /* LitterBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		196A7CF62BD381DA00DF353A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 196A7CE22BD381D700DF353A /* LitterBox */;
+			targetProxy = 196A7CF52BD381DA00DF353A /* PBXContainerItemProxy */;
+		};
+		196A7D002BD381DA00DF353A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 196A7CE22BD381D700DF353A /* LitterBox */;
+			targetProxy = 196A7CFF2BD381DA00DF353A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196A7D062BD381DA00DF353A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		196A7D072BD381DA00DF353A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		196A7D092BD381DA00DF353A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LitterBox/LitterBox.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LitterBox/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "turnip-dev.LitterBox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		196A7D0A2BD381DA00DF353A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LitterBox/LitterBox.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LitterBox/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "turnip-dev.LitterBox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		196A7D0C2BD381DA00DF353A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "turnip-dev.LitterBoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LitterBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LitterBox";
+			};
+			name = Debug;
+		};
+		196A7D0D2BD381DA00DF353A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "turnip-dev.LitterBoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LitterBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LitterBox";
+			};
+			name = Release;
+		};
+		196A7D0F2BD381DA00DF353A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "turnip-dev.LitterBoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LitterBox;
+			};
+			name = Debug;
+		};
+		196A7D102BD381DA00DF353A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "turnip-dev.LitterBoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LitterBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		196A7CDE2BD381D700DF353A /* Build configuration list for PBXProject "LitterBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196A7D062BD381DA00DF353A /* Debug */,
+				196A7D072BD381DA00DF353A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196A7D082BD381DA00DF353A /* Build configuration list for PBXNativeTarget "LitterBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196A7D092BD381DA00DF353A /* Debug */,
+				196A7D0A2BD381DA00DF353A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196A7D0B2BD381DA00DF353A /* Build configuration list for PBXNativeTarget "LitterBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196A7D0C2BD381DA00DF353A /* Debug */,
+				196A7D0D2BD381DA00DF353A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196A7D0E2BD381DA00DF353A /* Build configuration list for PBXNativeTarget "LitterBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196A7D0F2BD381DA00DF353A /* Debug */,
+				196A7D102BD381DA00DF353A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 196A7CDB2BD381D700DF353A /* Project object */;
+}
