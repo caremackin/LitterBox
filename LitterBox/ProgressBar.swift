@@ -1,15 +1,12 @@
 //
-//  savings.swift
+//  ProgressBar.swift
 //  LitterBox
 //
-//  Created by Unnathi Konduru on 4/20/24.
+//  Created by Caroline Mackin on 4/21/24.
 //
-
 import SwiftUI
-
-struct SavingsView: View {
+struct Progress: View {
     @State var progressValue: Float = 0.0
-
     var body: some View {
         VStack{
             ProgressBar(progress: self.$progressValue)
@@ -27,10 +24,9 @@ struct SavingsView: View {
         }
     }
 }
-
 struct ProgressBar: View {
     @Binding var progress: Float
-    var color: Color = Color(red: 0.97, green: 0.85, blue: 0.80)
+    var color: Color = Color(red: 2.35, green: 0.57, blue: 1.36)
     
     var body: some View {
         ZStack {
@@ -47,11 +43,11 @@ struct ProgressBar: View {
         }
     }
 }
-
-struct SavingsView_Previews:
+struct Progress_Previews:
     PreviewProvider{
     static var previews: some View{
-        SavingsView()
+        Progress()
     }
     
 }
+
